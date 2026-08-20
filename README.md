@@ -12,8 +12,8 @@ The goal is to keep a clear record of what I practiced, what I built, what I cha
 | --- | --- | --- |
 | 1 | Python Fundamentals & Conditional Logic | ✅ Complete |
 | 2 | Loops & Functions | ✅ Complete |
-| 3 | Data Structures | ⬜ Next |
-| 4 | Modules, Files & Exceptions | ⬜ Planned |
+| 3 | Data Structures | ⬜ In Progress |
+| 4 | Modules, Files & Exceptions | ⬜ Next |
 | 5 | System Operations & Practical Scripting | ⬜ Planned |
 | 6 | Basic Networking | ⬜ Planned |
 

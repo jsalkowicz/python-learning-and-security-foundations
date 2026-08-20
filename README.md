@@ -11,8 +11,8 @@ The goal is to keep a clear record of what I practiced, what I built, what I cha
 | Section | Focus | Status |
 | --- | --- | --- |
 | 1 | Python Fundamentals & Conditional Logic | ✅ Complete |
-| 2 | Loops & Functions | ⬜ In Progress |
-| 3 | Data Structures | ⬜ Planned |
+| 2 | Loops & Functions | ✅ Complete |
+| 3 | Data Structures | ⬜ Next |
 | 4 | Modules, Files & Exceptions | ⬜ Planned |
 | 5 | System Operations & Practical Scripting | ⬜ Planned |
 | 6 | Basic Networking | ⬜ Planned |
@@ -29,6 +29,16 @@ The two main guided exercises were:
 I also modified the authentication exercise by adding a third input and an additional failure message.
 
 ➡️ [View the Python Fundamentals & Conditional Logic documentation](01-python-fundamentals-and-conditional-logic/README.md)
+
+## Loops & Functions
+
+This section adds repeated execution and reusable code.
+
+I practiced `for` and `while` loops, `range()`, `break`, `continue`, function definitions, parameters and arguments, return values, and variable scope.
+
+The main guided project was a function-based calculator. I added a modulus option as an extra operation to practice extending the existing logic.
+
+➡️ [View the Loops & Functions documentation](02-loops-and-functions/README.md)
 
 ## Current Direction
 

@@ -1,7 +1,7 @@
 # Python Checkpoint 3 - Data Structures
 
 **Type:** Learning checkpoint  
-**Status:** PUBLIC
+**Status:** Complete
 
 ## Overview
 
@@ -76,8 +76,6 @@ This checkpoint documents my Python practice with core data structures and a few
 
 The `exercises/` folder contains a short record of the concepts practiced during this checkpoint. The detailed study notes were kept separately while completing the checkpoint.
 
-## Human Pass
+## Notes
 
-This repository entry is intentionally limited to concepts and exercises I actually completed during the checkpoint. There is no separate project for Checkpoint 3, so none is presented here.
-
-**PUBLIC**
+This section documents the concepts and exercises I completed during this checkpoint. No separate project was created for this section.

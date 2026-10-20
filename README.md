@@ -13,7 +13,7 @@ The goal is to keep a clear record of what I practiced, what I built, what I cha
 | 1 | Python Fundamentals & Conditional Logic | ✅ Complete |
 | 2 | Loops & Functions | ✅ Complete |
 | 3 | Data Structures | ✅ Complete |
-| 4 | Modules, Files & Exceptions | ⬜ In Progress |
+| 4 | Modules, Files & Exceptions | ✅ Complete
 | 5 | System Operations & Practical Scripting | ⬜ Planned |
 | 6 | Basic Networking | ⬜ Planned |
 
@@ -40,17 +40,48 @@ The main guided project was a function-based calculator. I added a modulus optio
 
 ➡️ [View the Loops & Functions documentation](02-loops-and-functions/README.md)
 
+## Modules, Files & Exceptions
+
+This section focused on working with files and handling errors in Python. I practiced opening and reading text files in several different ways, working with file paths, using the `with` statement, creating and writing files, and handling runtime errors without immediately stopping the program.
+
+Some of the main concepts I practiced were:
+
+- opening files with `open()` and read mode (`"r"`)
+- reading file contents with `read()`, `readline()`, and `readlines()`
+- limiting `read()` to a specific number of characters
+- using relative and absolute file paths
+- using raw strings for Windows file paths
+- reading multiple lines with loops
+- using the `with` statement to automatically close files
+- understanding syntax errors, runtime errors, and tracebacks
+- handling exceptions with `try`, `except`, and `finally`
+- catching specific exceptions such as `ZeroDivisionError`
+- creating and writing files with write mode (`"w"`)
+- using `write()` and `writelines()`
+
+One troubleshooting issue I ran into was a `unicodeescape` error when using a full Windows file path. I learned that Python can interpret backslashes as escape characters, and I fixed the issue by using a raw string for the path.
+
+I also learned that `readlines()` returns a list of lines rather than one large string. When looping through those lines, I used `end=""` with `print()` to avoid adding extra blank lines because the file lines could already contain newline characters.
+
+➡️ [View the Modules, Files & Exceptions documentation](04-modules-files-exceptions/README.md)
+
 ## Current Direction
 
-I am learning Python to strengthen my scripting skills and eventually apply them to practical security work such as:
+I am learning Python as a foundation for AI security engineering and analysis.
 
-- processing security data and logs
-- working with APIs and JSON
-- automating repetitive analysis
-- identifying risky events or conditions
+The skills in this repository will eventually support work such as:
+
+- processing security logs and AI telemetry
+- working with REST APIs and JSON
+- interacting with AI and LLM APIs
+- analyzing security test results
+- automating repetitive security tasks
+- working with AI evaluation datasets
+- building AI security testing tools
+- detecting risky behavior or abnormal conditions
 - producing useful security-focused output and reports
 
-The original security projects will be kept separate from the guided course exercises once I reach that stage.
+My original AI security projects will be kept separate from these guided Python course exercises once I reach that stage.
 
 ## Course Source
 

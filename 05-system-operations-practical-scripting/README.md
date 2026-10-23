@@ -1,6 +1,6 @@
 # Section 5 — System Operations & Practical Scripting
 
-**Status:** In Progress  
+**Status:** Complete  
 **Type:** Guided Python learning and practice
 
 ## Overview

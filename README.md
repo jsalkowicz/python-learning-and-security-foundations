@@ -14,7 +14,7 @@ The goal is to keep a clear record of what I practiced, what I built, what I cha
 | 2 | Loops & Functions | ✅ Complete |
 | 3 | Data Structures | ✅ Complete |
 | 4 | Modules, Files & Exceptions | ✅ Complete |
-| 5 | System Operations & Practical Scripting | ⬜ Planned |
+| 5 | System Operations & Practical Scripting | 🟡 In Progress |
 | 6 | Basic Networking | ⬜ Planned |
 
 ## Python Fundamentals & Conditional Logic
@@ -64,6 +64,24 @@ One troubleshooting issue I ran into was a `unicodeescape` error when using a fu
 I also learned that `readlines()` returns a list of lines rather than one large string. When looping through those lines, I used `end=""` with `print()` to avoid adding extra blank lines because the file lines could already contain newline characters.
 
 ➡️ [View the Modules, Files & Exceptions documentation](04-modules-files-exceptions/README.md)
+
+## System Operations & Practical Scripting
+
+This section is in progress and currently covers the beginning of Python's built-in `os` module.
+
+So far I have practiced:
+
+- checking the current working directory with `os.getcwd()`
+- listing files and folders with `os.listdir()`
+- looping through directory contents
+- changing Python's working directory with `os.chdir()`
+- creating a directory with `os.mkdir()`
+- removing an empty directory with `os.rmdir()`
+- verifying filesystem changes from PowerShell
+
+I also learned that some functions can successfully perform an action while returning `None`, and that running a script before saving the latest editor changes can make it look like updated code did not run.
+
+➡️ [View the System Operations & Practical Scripting documentation](05-system-operations-practical-scripting/README.md)
 
 ## Current Direction
 

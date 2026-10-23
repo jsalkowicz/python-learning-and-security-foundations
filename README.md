@@ -14,7 +14,7 @@ The goal is to keep a clear record of what I practiced, what I built, what I cha
 | 2 | Loops & Functions | ✅ Complete |
 | 3 | Data Structures | ✅ Complete |
 | 4 | Modules, Files & Exceptions | ✅ Complete |
-| 5 | System Operations & Practical Scripting | 🟡 In Progress |
+| 5 | System Operations & Practical Scripting | ✅ Complete |
 | 6 | Basic Networking | ⬜ Planned |
 
 ## Python Fundamentals & Conditional Logic
@@ -67,7 +67,7 @@ I also learned that `readlines()` returns a list of lines rather than one large 
 
 ## System Operations & Practical Scripting
 
-This section is in progress and currently covers the beginning of Python's built-in `os` module.
+This section covers Python's built-in `os` module and basic operating-system interactions.
 
 So far I have practiced:
 
